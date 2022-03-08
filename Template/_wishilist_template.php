@@ -52,11 +52,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
                                         <button type="submit" name="delete-cart-submit" class="btn font-baloo text-danger pl-0 pr-3 border-right">Delete</button>
                                     </form>
 
-                                    <form method="post">
-                                        <input type="hidden" value="<?php echo $item['item_id'] ?? 0; ?>" name="item_id">
-                                        <button type="submit" name="cart-submit" class="btn font-baloo text-danger">Add to Cart</button>
-                                    </form>
-
 
                                 </div>
                                 <!-- !product qty -->
